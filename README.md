@@ -1,6 +1,5 @@
 # online-servers-backuomanger
 针对online的VPS 用于在线备份当前系统
-<div class="page ">
 
               <div class="pull-right hidden-print">
   <div class="toc-affix affix" data-spy="affix" data-offset-top="150">
@@ -180,49 +179,13 @@
 
 </div>
 
-<h3 class="sectionedit6" id="step_3automatization_of_backups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第3步：备份自动化</font></font><a class="anchorjs-link " href="#step_3automatization_of_backups" aria-label="Anchor link for: step_3automatization_of_backups" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h3>
+<h3 class="sectionedit6" id="step_3automatization_of_backups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第3步：运行备份管理器 手动备份</font></font><a class="anchorjs-link " href="#step_3automatization_of_backups" aria-label="Anchor link for: step_3automatization_of_backups" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h3>
 <div class="level3">
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-为了自动化我们服务器的备份，我们使用一个小脚本和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cron</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。
+要手动运行备份管理器，请输入以下命令。你也可以选择添加‘-v’标识以便一步一步详细检查运行过程。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cron</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。
 </font></font></p>
-<ul class="fix-media-list-overlap">
-<li class="level1"><div class="li"> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建脚本</font></font></strong></div>
-</li>
-</ul>
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-将以下内容复制/粘贴到shell中：
-</font></font></p>
-<pre class="code"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cat &lt;&lt; EOF&gt; /etc/backup-manager.sh&amp;&amp; chmod 700 /etc/backup-manager.sh</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-＃！/ bin / sh的</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-test -x / usr / sbin / backup-manager || </font><font style="vertical-align: inherit;">退出0</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-/ usr / sbin目录/备份管理器</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-EOF</font></font></pre>
-<ul class="fix-media-list-overlap">
-<li class="level1"><div class="li"> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用crontab将其添加到cron</font></font></strong></div>
-</li>
-</ul>
-<pre class="code"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">root @ dedibox：〜＃crontab -e</font></font></pre>
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-添加以下行以运行备份管理器...
-</font></font></p>
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-...每隔15天8:04
-</font></font></p>
-<pre class="code"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4 8 * / 15 * * /etc/backup-manager.sh</font></font></pre>
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-... 2月4日23:16
-</font></font></p>
-<pre class="code"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16 23 4 2 * /etc/backup-manager.sh</font></font></pre>
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-...周一至周五8:04
-</font></font></p>
-<pre class="code"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4 8 * * 1-5 /etc/backup-manager.sh</font></font></pre>
+<p>　　# backup-manager</p>
 
 </div>
 
