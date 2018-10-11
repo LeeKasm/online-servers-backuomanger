@@ -179,7 +179,7 @@
 <div class="level3">
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-要手动运行备份管理器，请输入以下命令。你也可以选择添加‘-v’标识以便一步一步详细检查运行过程。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cron</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。
+要手动运行备份管理器，请输入以下命令。你也可以选择添加‘-v’标识以便一步一步详细检查运行过程。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。
 </font></font></p>
 <p>　　# backup-manager</p>
 
