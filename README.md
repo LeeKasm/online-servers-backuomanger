@@ -258,17 +258,3 @@ etc / profile文件</font></font><font></font><font style="vertical-align: inher
 bertrand @ dedibox：〜$ sudo mv etc / network / interfaces / etc / network / interfaces</font></font></pre>
 
 </div>
-
-<h2 class="sectionedit8" id="references"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font><a class="anchorjs-link " href="#references" aria-label="Anchor link for: references" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h2>
-<div class="level2">
-
-<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-- </font><a href="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" class="urlextern" title="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" rel="nofollow"><font style="vertical-align: inherit;">此处</font></a><font style="vertical-align: inherit;">提供</font><a href="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" class="urlextern" title="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" rel="nofollow"><font style="vertical-align: inherit;">了</font></a><font style="vertical-align: inherit;">备份管理器脚本</font></font><a href="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" class="urlextern" title="https://github.com/biapy/howto.biapy.com/blob/579e532edbb86c4bd41fc3c9be86c23b4d923f70/xen-tools/backup-manager.conf" rel="nofollow"><font style="vertical-align: inherit;"></font></a>
-</p>
-
-</div>
-
-<!-- cachefile /var/www/online.net/documentation.online.net/www/data/cache/5/5162103ed4202f40e27cef48062a03d0.xhtml used -->
-
-
-            </div>
