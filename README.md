@@ -1,7 +1,7 @@
 # online-servers-backuomanger
 针对online的VPS 用于在线备份当前系统
 
-              <div class="pull-right hidden-print">
+  <div class="pull-right hidden-print">
   <div class="toc-affix affix" data-spy="affix" data-offset-top="150">
     <!-- TOC START -->
 <div class="panel panel-default" id="dw__toc" style="background-color: rgb(255, 255, 255);">
@@ -16,16 +16,12 @@
 <li class="level3"><a href="#step_2configuration_of_backup_manager"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第2步：配置备份管理器</font></font></a></li>
 <li class="level3"><a href="#step_3automatization_of_backups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第3步：备份自动化</font></font></a></li>
 <li class="level3"><a href="#step_4recovery_of_backups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第4步：恢复备份</font></font></a></li>
-</ul>
-</li>
-<li class="level2"><a href="#references"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></li>
-</ul>
 </div>
 </div>
 <!-- TOC END -->
   </div>
 </div>
-
+</div>
 <h2 class="sectionedit1" id="backup_manager_gnulinux"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备份管理器（GNU / Linux）</font></font><a class="anchorjs-link " href="#backup_manager_gnulinux" aria-label="Anchor link for: backup_manager_gnulinux" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h2>
 <div class="level2">
 <div class="notetip"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求：</font></font></strong><ul class="fix-media-list-overlap">
